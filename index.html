@@ -15,7 +15,8 @@
     }
 
     header {
-      background-color: #f0f0f0;
+      background-color: #1f2937;
+      color: white;
       padding: 40px 20px 20px;
       text-align: center;
     }
@@ -78,6 +79,19 @@
       text-decoration: none;
     }
 
+    .glass-box {
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-radius: 16px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      padding: 20px;
+      margin: 30px auto;
+      max-width: 800px;
+      color: #000;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
     .adspace {
       margin: 40px auto;
       width: 90%;
@@ -103,11 +117,15 @@
 
   <div class="main-content">
     <h2>Authentic Football Cards – From Messi to Rising Stars</h2>
-    <p>
-      We’re a passionate team of football lovers who believe every player’s legacy deserves a place in your collection.
-      From legendary icons like Messi and Ronaldo to rare editions, we bring you authentic football cards—carefully
-      selected and packed with passion. Explore our store and start your collection today.
-    </p>
+
+    <div class="glass-box">
+      <p>
+        We’re a passionate team of football lovers who believe every player’s legacy deserves a place in your collection.
+        From legendary icons like Messi and Ronaldo to rare editions, we bring you authentic football cards—carefully
+        selected and packed with passion. Explore our store and start your collection today.
+      </p>
+    </div>
+
     <p>Follow us on YouTube:</p>
     <a class="youtube-link" href="https://www.youtube.com/channel/UCcqcCsZQ0NerHBXY87T2DiQ" target="_blank">
       Watch on YouTube
@@ -128,14 +146,12 @@
     </script>
   </div>
 
-  <!-- Bottom nav bar (no buttons) -->
   <footer>
     <div style="background-color: #1f2937; padding: 20px; text-align: center; color: white;">
-      <!-- Empty bar for visual balance -->
+      <!-- Bottom nav bar for symmetry -->
     </div>
   </footer>
 
 </body>
 </html>
-
 
