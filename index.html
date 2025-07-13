@@ -1,104 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cardswepper – Home</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background-color: #f2f2f2;
-      color: #333;
-    }
-    header {
-      background-color: #1f2937;
+      font-family: Impact, sans-serif;
+      background: url('istockphoto-1197582798-612x612.png') no-repeat center center fixed;
+      background-size: cover;
       color: white;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 40px 20px;
       text-align: center;
-      padding: 30px 20px;
     }
-    header img {
-      width: 120px;
-      margin-bottom: 10px;
-    }
+
     header h1 {
-      font-family: Impact, Charcoal, sans-serif;
-      font-size: 2.5em;
-      margin: 10px 0;
+      font-size: 3em;
+      margin: 0;
     }
+
+    header p {
+      font-size: 1.5em;
+      margin-top: 10px;
+    }
+
     nav {
-      background-color: #374151;
+      background-color: #1f2937;
+      padding: 10px;
       text-align: center;
-      padding: 10px 0;
     }
+
     nav a {
       color: white;
       text-decoration: none;
       margin: 0 15px;
       font-weight: bold;
     }
+
     nav a:hover {
       text-decoration: underline;
     }
-    .hero {
-      background: url('istockphoto-1197582798-612x612.png') center/cover no-repeat;
-      height: 300px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: white;
-      font-size: 2em;
+
+    .main-content {
+      text-align: center;
+      padding: 60px 20px;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .main-content h2 {
+      font-size: 2.5em;
+    }
+
+    .main-content p {
+      font-size: 1.2em;
+      margin: 20px 0;
+    }
+
+    .youtube-link {
+      font-size: 1.2em;
+      color: red;
       font-weight: bold;
-      text-shadow: 1px 1px 5px black;
-      font-family: Impact, Charcoal, sans-serif;
-      flex-direction: column;
-    }
-    .hero .social {
-      margin-top: 10px;
-    }
-    .youtube-button {
-      display: inline-block;
-      padding: 10px 20px;
-      background-color: #FF0000;
-      color: white;
-      border-radius: 5px;
       text-decoration: none;
-      font-weight: bold;
-      font-size: 14px;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-      transition: background-color 0.3s ease;
     }
-    .youtube-button:hover {
-      background-color: #cc0000;
-    }
-    .ad-space {
-      background: #e5e5e5;
-      text-align: center;
-      padding: 20px;
-      margin: 20px auto;
-      max-width: 800px;
-      border: 2px dashed #999;
-      font-size: 1em;
-      color: #666;
-    }
-    main {
-      max-width: 800px;
+
+    .adspace {
       margin: 40px auto;
-      padding: 0 20px;
-      background: white;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-      border-radius: 10px;
-    }
-    h2 {
-      color: #1f2937;
-      padding-top: 20px;
-      text-align: center;
-      font-family: Impact, Charcoal, sans-serif;
-    }
-    p {
-      font-size: 1.1em;
-      line-height: 1.6;
-      padding: 0 20px 20px;
+      width: 90%;
+      max-width: 728px;
       text-align: center;
     }
   </style>
@@ -106,40 +80,37 @@
 <body>
 
   <header>
-    <img src="logo.png" alt="Cardswepper Logo" />
     <h1>Cardswepper</h1>
-    <p>Buy and Celebrate the Game</p>
+    <p>Buy And Celebrate the Game.</p>
   </header>
 
   <nav>
-    <a href="#">Home</a>
-    <a href="#">Shop</a>
-    <a href="#">Auctions</a>
+    <a href="index.html">Home</a>
     <a href="feedback.html">Feedback</a>
+    <a href="shop.html">Shop</a>
   </nav>
 
-  <div class="hero">
-    <div>Authentic Football Cards</div>
-    <div class="social">
-      <a class="youtube-button" href="https://www.youtube.com/channel/UCcqcCsZQ0NerHBXY87T2DiQ" target="_blank">
-        ▶  Follow us on YouTube
-      </a>
-    </div>
+  <div class="main-content">
+    <h2>Authentic Football Cards</h2>
+    <p>Follow us on YouTube:</p>
+    <a class="youtube-link" href="https://www.youtube.com/channel/UCcqcCsZQ0NerHBXY87T2DiQ" target="_blank">
+      Watch on YouTube
+    </a>
   </div>
 
-  <div class="ad-space">
-    <!-- Ad Placeholder -->
-    Ad Space – Your Ad Code Can Go Here
+  <div class="adspace">
+    <!-- Adsterra or other ad network code goes here -->
+    <script type="text/javascript">
+      atOptions = {
+        'key': 'your_adsterra_key',
+        'format': 'iframe',
+        'height': 90,
+        'width': 728,
+        'params': {}
+      };
+      document.write('<scr' + 'ipt type="text/javascript" src="https://www.profitabledisplaynetwork.com/' + atOptions.key + '/invoke.js"></scr' + 'ipt>');
+    </script>
   </div>
-
-  <main>
-    <h2>Welcome to Cardswepper</h2>
-    <p>
-      We’re a passionate team of football lovers who believe that every player’s legacy deserves a place in your collection.
-      From legends like <strong>Messi</strong> and <strong>Ronaldo</strong> to rising stars and rare editions, we bring you
-      authentic football cards, handpicked and packed with care.
-    </p>
-  </main>
 
 </body>
 </html>
