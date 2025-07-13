@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cardswepper Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      background-color: #1f2937;
+      color: white;
+      padding: 30px 20px;
+    }
+
+    h1 {
+      font-family: Impact, sans-serif;
+      font-size: 2.5rem;
+      margin: 0;
+    }
+
+    .notice {
+      font-size: 1.1rem;
+      color: #444;
+      margin-top: 30px;
+    }
+
+    iframe {
+      margin-top: 30px;
+      width: 100%;
+      height: 800px;
+      border: none;
+    }
+
+    .ad-container {
+      margin: 20px auto;
+      width: 90%;
+      max-width: 728px;
+      height: auto;
+    }
+
+    .back-button {
+      margin: 40px 0;
+    }
+
+    .back-button a button {
+      padding: 10px 20px;
+      font-weight: bold;
+      background-color: #1f2937;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .back-button a button:hover {
+      background-color: #374151;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Cardswepper Store</h1>
+    <p>Buy. Celebrate the Game.</p>
+  </header>
+
+  <div class="notice">🛒 Our store is in beta. Feel free to browse and preview the products below.</div>
+
+  <!-- 🔼 Ad Area (Top Banner) -->
+  <div class="ad-container">
+    <!-- Replace this with your Adsterra or ad code -->
+    <script type="text/javascript">
+      atOptions = {
+        'key' : 'your_adsterra_key_here',
+        'format' : 'iframe',
+        'height' : 90,
+        'width' : 728,
+        'params' : {}
+      };
+      document.write('<scr' + 'ipt type="text/javascript" src="https://www.profitabledisplaynetwork.com/' + atOptions.key + '/invoke.js"></scr' + 'ipt>');
+    </script>
+  </div>
+
+  <!-- 🛍️ Payhip Store Embed -->
+  <iframe src="https://payhip.com/CardSwepper"></iframe>
+
+  <!-- 🔽 Ad Area (Bottom Banner, optional) -->
+  <div class="ad-container">
+    <!-- Optional: Another ad script here -->
+  </div>
+
+  <!-- 🔙 Back to Home Button -->
+  <div class="back-button">
+    <a href="index.html"><button>← Back to Home</button></a>
+  </div>
+
+</body>
+</html>
