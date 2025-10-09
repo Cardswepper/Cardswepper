@@ -73,7 +73,6 @@
       transform: translateY(-2px);
     }
 
-    /* Responsive */
     @media (max-width: 768px) {
       main {
         margin: 30px auto;
@@ -103,10 +102,12 @@
 
     <!-- Facebook Comments Plugin -->
     <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0"></script>
+    <script async defer crossorigin="anonymous" 
+      src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0">
+    </script>
 
     <div class="fb-comments" 
-         data-href="https://your-github-username.github.io/cardsweeper/feedback.html" 
+         data-href="https://cardswepper.github.io/cardswepper/feedback.html" 
          data-width="100%" 
          data-numposts="5"
          data-lazy="true">
@@ -118,6 +119,17 @@
       </a>
     </div>
   </main>
+
+  <!-- ✅ Ko-fi Floating Chat Widget -->
+  <script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
+  <script>
+    kofiWidgetOverlay.draw('cardsweeper', {
+      'type': 'floating-chat',
+      'floating-chat.donateButton.text': 'Support Cardsweeper 💙',
+      'floating-chat.donateButton.background-color': '#00b9fe',
+      'floating-chat.donateButton.text-color': '#fff'
+    });
+  </script>
 
 </body>
 </html>
